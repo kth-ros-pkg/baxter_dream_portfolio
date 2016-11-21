@@ -1,0 +1,16 @@
+robot: !Robot
+    pose: !Pose {orientation: !ndarray '[0.0, 0.0, 0.0, 1.0]', position: !ndarray '[0.0, 0.0, 0.0]'}
+    name: baxter
+    configuration: {fixed: 0.0, head_pan: 0.0, left_s0: 0.19, left_s1: 1.04, left_e0: 0.03, left_e1: 0.5, left_w0: -0.16, left_w1: 0.026, left_w2: -0.012, l_gripper_l_finger_joint: 0.0, l_gripper_r_finger_joint: 0.0, right_s0: 0.19, right_s1: 1.04, right_e0: 0.03, right_e1: 0.5, right_w0: -0.16, right_w1: 0.026, right_w2: -0.012, r_gripper_l_finger_joint: 0.0, r_gripper_r_finger_joint: 0.0}
+objects:
+    -   !Object
+        name: cafe_table
+        pose: !Pose {orientation: !ndarray '[0.0, 0.0, 0.0, 1.0]', position: !ndarray '[1.30, 0.0, 0.0]'}
+    -   !Object
+        name: ground_plane
+        pose: !Pose {orientation: !ndarray '[0.0, 0.0, 0.0, 1.0]', position: !ndarray '[0.0, 0.0, 0.0]'}
+    -   !Object
+        name: crayola_64_ct
+        pose: !Pose {orientation: !ndarray '[0.71735609, 0.0, 0.0, 0.69670671]', position: !ndarray '[1.2431, -0.075441, 0.840046]'}
+
+worldFrame: world

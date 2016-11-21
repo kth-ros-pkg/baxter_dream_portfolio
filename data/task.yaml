@@ -1,0 +1,14 @@
+!Task
+actions:
+- !MoveArmAction
+  constraints: {}
+  goal: !GraspReference {graspActionName: grasp1}
+  name: moveToGrasp
+- !GraspAction
+  constraints: {}
+  name: grasp1
+  objectName: cheezit_big_original
+- !PlaceAction
+  constraints: {}
+  goal: ground_plane
+  name: placeAction

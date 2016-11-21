@@ -1,0 +1,802 @@
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTkConfigDefault,
+  group_0_planner_border_fraction: 0.9, group_0_planner_delay_collision_checking: 1,
+  group_0_planner_failed_expansion_score_factor: 0.5, group_0_planner_goal_bias: 0.05,
+  group_0_planner_longest_valid_segment_fraction: 0.010000000000000002, group_0_planner_min_valid_path_fraction: 0.5,
+  group_0_planner_moveGroup: left_arm, group_0_planner_range: 0.0, group_0_planner_timeout: 5.0,
+  seed: 8835615}
+- -0.22562702393414913
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTkConfigDefault,
+  group_0_planner_border_fraction: 0.9, group_0_planner_delay_collision_checking: 1,
+  group_0_planner_failed_expansion_score_factor: 0.5, group_0_planner_goal_bias: 0.05,
+  group_0_planner_longest_valid_segment_fraction: 0.010000000000000002, group_0_planner_min_valid_path_fraction: 0.5,
+  group_0_planner_moveGroup: left_arm, group_0_planner_range: 0.0, group_0_planner_timeout: 5.0,
+  seed: 13908709}
+- -1.7369297386487088
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTConnectkConfigDefault,
+  group_0_planner_border_fraction: 0.5460152852364707, group_0_planner_delay_collision_checking: 1,
+  group_0_planner_failed_expansion_score_factor: 0.8733629223652084, group_0_planner_goal_bias: 0.8571287195274967,
+  group_0_planner_longest_valid_segment_fraction: 0.2532856645276465, group_0_planner_min_valid_path_fraction: 0.3967365472727763,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 97.5710077423318, group_0_planner_timeout: 4.332457164343397,
+  seed: 13908709}
+- -5.548169492166191
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTConnectkConfigDefault,
+  group_0_planner_border_fraction: 0.5460152852364707, group_0_planner_delay_collision_checking: 1,
+  group_0_planner_failed_expansion_score_factor: 0.8733629223652084, group_0_planner_goal_bias: 0.8571287195274967,
+  group_0_planner_longest_valid_segment_fraction: 0.2532856645276465, group_0_planner_min_valid_path_fraction: 0.3967365472727763,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 97.5710077423318, group_0_planner_timeout: 4.332457164343397,
+  seed: 8835615}
+- -13.801763703903429
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTConnectkConfigDefault,
+  group_0_planner_border_fraction: 0.5460152852364707, group_0_planner_delay_collision_checking: 1,
+  group_0_planner_failed_expansion_score_factor: 0.8733629223652084, group_0_planner_goal_bias: 0.8571287195274967,
+  group_0_planner_longest_valid_segment_fraction: 0.2532856645276465, group_0_planner_min_valid_path_fraction: 0.3967365472727763,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 97.5710077423318, group_0_planner_timeout: 4.332457164343397,
+  seed: 15270025}
+- -27.723976693807444
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTStarkConfigDefault,
+  group_0_planner_border_fraction: 0.39614707549554573, group_0_planner_delay_collision_checking: 1,
+  group_0_planner_failed_expansion_score_factor: 0.13016575463648417, group_0_planner_goal_bias: 0.2890559451563247,
+  group_0_planner_longest_valid_segment_fraction: 0.4773113034027058, group_0_planner_min_valid_path_fraction: 0.45821035058430504,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 81.8826309291456, group_0_planner_timeout: 11.647836915778692,
+  seed: 15270025}
+- -16.296411802612884
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTStarkConfigDefault,
+  group_0_planner_border_fraction: 0.39614707549554573, group_0_planner_delay_collision_checking: 1,
+  group_0_planner_failed_expansion_score_factor: 0.13016575463648417, group_0_planner_goal_bias: 0.2890559451563247,
+  group_0_planner_longest_valid_segment_fraction: 0.4773113034027058, group_0_planner_min_valid_path_fraction: 0.45821035058430504,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 81.8826309291456, group_0_planner_timeout: 11.647836915778692,
+  seed: 13908709}
+- -22.78413594233258
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTStarkConfigDefault,
+  group_0_planner_border_fraction: 0.39614707549554573, group_0_planner_delay_collision_checking: 1,
+  group_0_planner_failed_expansion_score_factor: 0.13016575463648417, group_0_planner_goal_bias: 0.2890559451563247,
+  group_0_planner_longest_valid_segment_fraction: 0.4773113034027058, group_0_planner_min_valid_path_fraction: 0.45821035058430504,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 81.8826309291456, group_0_planner_timeout: 11.647836915778692,
+  seed: 8835615}
+- -33.53073885207518
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTStarkConfigDefault,
+  group_0_planner_border_fraction: 0.39614707549554573, group_0_planner_delay_collision_checking: 1,
+  group_0_planner_failed_expansion_score_factor: 0.13016575463648417, group_0_planner_goal_bias: 0.2890559451563247,
+  group_0_planner_longest_valid_segment_fraction: 0.4773113034027058, group_0_planner_min_valid_path_fraction: 0.45821035058430504,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 81.8826309291456, group_0_planner_timeout: 11.647836915778692,
+  seed: 7726201}
+- -49.3522503347532
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTConnectkConfigDefault,
+  group_0_planner_border_fraction: 0.3720378353480047, group_0_planner_delay_collision_checking: 0,
+  group_0_planner_failed_expansion_score_factor: 0.0034139123737357223, group_0_planner_goal_bias: 0.24385839826872469,
+  group_0_planner_longest_valid_segment_fraction: 0.5695879636533315, group_0_planner_min_valid_path_fraction: 0.5056766241821882,
+  group_0_planner_moveGroup: left_arm, group_0_planner_range: 73.2980757891837, group_0_planner_timeout: 13.119592040282441,
+  seed: 13908709}
+- -70.25232703471018
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTConnectkConfigDefault,
+  group_0_planner_border_fraction: 0.3720378353480047, group_0_planner_delay_collision_checking: 0,
+  group_0_planner_failed_expansion_score_factor: 0.0034139123737357223, group_0_planner_goal_bias: 0.24385839826872469,
+  group_0_planner_longest_valid_segment_fraction: 0.5695879636533315, group_0_planner_min_valid_path_fraction: 0.5056766241821882,
+  group_0_planner_moveGroup: left_arm, group_0_planner_range: 73.2980757891837, group_0_planner_timeout: 13.119592040282441,
+  seed: 7726201}
+- -113.24314576293699
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTConnectkConfigDefault,
+  group_0_planner_border_fraction: 0.3720378353480047, group_0_planner_delay_collision_checking: 0,
+  group_0_planner_failed_expansion_score_factor: 0.0034139123737357223, group_0_planner_goal_bias: 0.24385839826872469,
+  group_0_planner_longest_valid_segment_fraction: 0.5695879636533315, group_0_planner_min_valid_path_fraction: 0.5056766241821882,
+  group_0_planner_moveGroup: left_arm, group_0_planner_range: 73.2980757891837, group_0_planner_timeout: 13.119592040282441,
+  seed: 8835615}
+- -63.43933841309871
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTConnectkConfigDefault,
+  group_0_planner_border_fraction: 0.3720378353480047, group_0_planner_delay_collision_checking: 0,
+  group_0_planner_failed_expansion_score_factor: 0.0034139123737357223, group_0_planner_goal_bias: 0.24385839826872469,
+  group_0_planner_longest_valid_segment_fraction: 0.5695879636533315, group_0_planner_min_valid_path_fraction: 0.5056766241821882,
+  group_0_planner_moveGroup: left_arm, group_0_planner_range: 73.2980757891837, group_0_planner_timeout: 13.119592040282441,
+  seed: 15270025}
+- -40.453651534865244
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTConnectkConfigDefault,
+  group_0_planner_border_fraction: 0.3720378353480047, group_0_planner_delay_collision_checking: 0,
+  group_0_planner_failed_expansion_score_factor: 0.0034139123737357223, group_0_planner_goal_bias: 0.24385839826872469,
+  group_0_planner_longest_valid_segment_fraction: 0.5695879636533315, group_0_planner_min_valid_path_fraction: 0.5056766241821882,
+  group_0_planner_moveGroup: left_arm, group_0_planner_range: 73.2980757891837, group_0_planner_timeout: 13.119592040282441,
+  seed: 3121920}
+- -88.97460661006707
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: LBKPIECEkConfigDefault,
+  group_0_planner_border_fraction: 0.1123231394731532, group_0_planner_delay_collision_checking: 0,
+  group_0_planner_failed_expansion_score_factor: 0.015622706899356532, group_0_planner_goal_bias: 0.3029264502384442,
+  group_0_planner_longest_valid_segment_fraction: 0.9643831765544791, group_0_planner_min_valid_path_fraction: 0.4385255278543314,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 49.73444429031934,
+  group_0_planner_timeout: 13.15356796908247, seed: 15270025}
+- -324.58201245667607
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: LBKPIECEkConfigDefault,
+  group_0_planner_border_fraction: 0.1123231394731532, group_0_planner_delay_collision_checking: 0,
+  group_0_planner_failed_expansion_score_factor: 0.015622706899356532, group_0_planner_goal_bias: 0.3029264502384442,
+  group_0_planner_longest_valid_segment_fraction: 0.9643831765544791, group_0_planner_min_valid_path_fraction: 0.4385255278543314,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 49.73444429031934,
+  group_0_planner_timeout: 13.15356796908247, seed: 8835615}
+- -508.1193186458436
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: LBKPIECEkConfigDefault,
+  group_0_planner_border_fraction: 0.1123231394731532, group_0_planner_delay_collision_checking: 0,
+  group_0_planner_failed_expansion_score_factor: 0.015622706899356532, group_0_planner_goal_bias: 0.3029264502384442,
+  group_0_planner_longest_valid_segment_fraction: 0.9643831765544791, group_0_planner_min_valid_path_fraction: 0.4385255278543314,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 49.73444429031934,
+  group_0_planner_timeout: 13.15356796908247, seed: 3121920}
+- -575.84718318424
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: LBKPIECEkConfigDefault,
+  group_0_planner_border_fraction: 0.1123231394731532, group_0_planner_delay_collision_checking: 0,
+  group_0_planner_failed_expansion_score_factor: 0.015622706899356532, group_0_planner_goal_bias: 0.3029264502384442,
+  group_0_planner_longest_valid_segment_fraction: 0.9643831765544791, group_0_planner_min_valid_path_fraction: 0.4385255278543314,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 49.73444429031934,
+  group_0_planner_timeout: 13.15356796908247, seed: 7726201}
+- -550.5287420708601
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: LBKPIECEkConfigDefault,
+  group_0_planner_border_fraction: 0.1123231394731532, group_0_planner_delay_collision_checking: 0,
+  group_0_planner_failed_expansion_score_factor: 0.015622706899356532, group_0_planner_goal_bias: 0.3029264502384442,
+  group_0_planner_longest_valid_segment_fraction: 0.9643831765544791, group_0_planner_min_valid_path_fraction: 0.4385255278543314,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 49.73444429031934,
+  group_0_planner_timeout: 13.15356796908247, seed: 13908709}
+- -832.0227510516886
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: LBKPIECEkConfigDefault,
+  group_0_planner_border_fraction: 0.1123231394731532, group_0_planner_delay_collision_checking: 0,
+  group_0_planner_failed_expansion_score_factor: 0.015622706899356532, group_0_planner_goal_bias: 0.3029264502384442,
+  group_0_planner_longest_valid_segment_fraction: 0.9643831765544791, group_0_planner_min_valid_path_fraction: 0.4385255278543314,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 49.73444429031934,
+  group_0_planner_timeout: 13.15356796908247, seed: 4189905}
+- -957.3038178437719
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTkConfigDefault,
+  group_0_planner_border_fraction: 0.4616939343336891, group_0_planner_delay_collision_checking: 0,
+  group_0_planner_failed_expansion_score_factor: 0.9454544932241133, group_0_planner_goal_bias: 0.6576437363891539,
+  group_0_planner_longest_valid_segment_fraction: 0.05237485082701173, group_0_planner_min_valid_path_fraction: 0.43041323825565003,
+  group_0_planner_moveGroup: left_arm, group_0_planner_range: 95.6275320814108, group_0_planner_timeout: 4.323997236839682,
+  seed: 15270025}
+- -440.18208928368
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: LBKPIECEkConfigDefault,
+  group_0_planner_border_fraction: 0.1123231394731532, group_0_planner_delay_collision_checking: 0,
+  group_0_planner_failed_expansion_score_factor: 0.015622706899356532, group_0_planner_goal_bias: 0.3029264502384442,
+  group_0_planner_longest_valid_segment_fraction: 0.9643831765544791, group_0_planner_min_valid_path_fraction: 0.4385255278543314,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 49.73444429031934,
+  group_0_planner_timeout: 13.15356796908247, seed: 11284137}
+- -681.3244363154564
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTStarkConfigDefault,
+  group_0_planner_border_fraction: 0.556503753350784, group_0_planner_delay_collision_checking: 0,
+  group_0_planner_failed_expansion_score_factor: 0.006514673294979447, group_0_planner_goal_bias: 0.3186686398070572,
+  group_0_planner_longest_valid_segment_fraction: 0.5495376913925659, group_0_planner_min_valid_path_fraction: 0.3730217319465783,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 78.0283361143574, group_0_planner_timeout: 14.401462868773148,
+  seed: 7726201}
+- -387.2578499624159
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: LBKPIECEkConfigDefault,
+  group_0_planner_border_fraction: 0.1123231394731532, group_0_planner_delay_collision_checking: 0,
+  group_0_planner_failed_expansion_score_factor: 0.015622706899356532, group_0_planner_goal_bias: 0.3029264502384442,
+  group_0_planner_longest_valid_segment_fraction: 0.9643831765544791, group_0_planner_min_valid_path_fraction: 0.4385255278543314,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 49.73444429031934,
+  group_0_planner_timeout: 13.15356796908247, seed: 9212762}
+- -477.1128221580011
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: LBKPIECEkConfigDefault,
+  group_0_planner_border_fraction: 0.21461686887482723, group_0_planner_delay_collision_checking: 1,
+  group_0_planner_failed_expansion_score_factor: 0.10108524867436372, group_0_planner_goal_bias: 0.36996710493988194,
+  group_0_planner_longest_valid_segment_fraction: 0.5756658758555852, group_0_planner_min_valid_path_fraction: 0.2413283034706145,
+  group_0_planner_moveGroup: left_arm, group_0_planner_range: 99.04210675493145, group_0_planner_timeout: 13.77170404814807,
+  seed: 8835615}
+- -540.4823480943703
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: LBKPIECEkConfigDefault,
+  group_0_planner_border_fraction: 0.1123231394731532, group_0_planner_delay_collision_checking: 0,
+  group_0_planner_failed_expansion_score_factor: 0.015622706899356532, group_0_planner_goal_bias: 0.3029264502384442,
+  group_0_planner_longest_valid_segment_fraction: 0.9643831765544791, group_0_planner_min_valid_path_fraction: 0.4385255278543314,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 49.73444429031934,
+  group_0_planner_timeout: 13.15356796908247, seed: 13769913}
+- -2040.352989816428
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: LBKPIECEkConfigDefault,
+  group_0_planner_border_fraction: 0.41060944162520996, group_0_planner_delay_collision_checking: 0,
+  group_0_planner_failed_expansion_score_factor: 0.3977962027447449, group_0_planner_goal_bias: 0.7439933908197742,
+  group_0_planner_longest_valid_segment_fraction: 0.34171904030859435, group_0_planner_min_valid_path_fraction: 0.9861831803017801,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 18.127505448499683,
+  group_0_planner_timeout: 13.87424075312327, seed: 15270025}
+- -714.877819016326
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: LBKPIECEkConfigDefault,
+  group_0_planner_border_fraction: 0.1123231394731532, group_0_planner_delay_collision_checking: 0,
+  group_0_planner_failed_expansion_score_factor: 0.015622706899356532, group_0_planner_goal_bias: 0.3029264502384442,
+  group_0_planner_longest_valid_segment_fraction: 0.9643831765544791, group_0_planner_min_valid_path_fraction: 0.4385255278543314,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 49.73444429031934,
+  group_0_planner_timeout: 13.15356796908247, seed: 4902311}
+- -2407.9636763581266
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTStarkConfigDefault,
+  group_0_planner_border_fraction: 0.10578785171851057, group_0_planner_delay_collision_checking: 1,
+  group_0_planner_failed_expansion_score_factor: 0.45307755124915916, group_0_planner_goal_bias: 0.026696068393789574,
+  group_0_planner_longest_valid_segment_fraction: 0.6093075218117204, group_0_planner_min_valid_path_fraction: 0.37365541002510116,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 67.0237979082147, group_0_planner_timeout: 13.308196991212263,
+  seed: 13769913}
+- -371.67264912745
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: LBKPIECEkConfigDefault,
+  group_0_planner_border_fraction: 0.1123231394731532, group_0_planner_delay_collision_checking: 0,
+  group_0_planner_failed_expansion_score_factor: 0.015622706899356532, group_0_planner_goal_bias: 0.3029264502384442,
+  group_0_planner_longest_valid_segment_fraction: 0.9643831765544791, group_0_planner_min_valid_path_fraction: 0.4385255278543314,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 49.73444429031934,
+  group_0_planner_timeout: 13.15356796908247, seed: 1245643}
+- -3927.2738948071724
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTConnectkConfigDefault,
+  group_0_planner_border_fraction: 0.2081638363930588, group_0_planner_delay_collision_checking: 1,
+  group_0_planner_failed_expansion_score_factor: 0.16491925766994878, group_0_planner_goal_bias: 0.042948771049567847,
+  group_0_planner_longest_valid_segment_fraction: 0.48197029148301174, group_0_planner_min_valid_path_fraction: 0.37750641013262975,
+  group_0_planner_moveGroup: left_arm, group_0_planner_range: 4.349104082658927, group_0_planner_timeout: 8.693266532355533,
+  seed: 7726201}
+- -788.4475477175122
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: LBKPIECEkConfigDefault,
+  group_0_planner_border_fraction: 0.1123231394731532, group_0_planner_delay_collision_checking: 0,
+  group_0_planner_failed_expansion_score_factor: 0.015622706899356532, group_0_planner_goal_bias: 0.3029264502384442,
+  group_0_planner_longest_valid_segment_fraction: 0.9643831765544791, group_0_planner_min_valid_path_fraction: 0.4385255278543314,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 49.73444429031934,
+  group_0_planner_timeout: 13.15356796908247, seed: 3341963}
+- -3694.9852122980046
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTkConfigDefault,
+  group_0_planner_border_fraction: 0.06605571821979983, group_0_planner_delay_collision_checking: 1,
+  group_0_planner_failed_expansion_score_factor: 0.5687027904956924, group_0_planner_goal_bias: 0.9900660455103931,
+  group_0_planner_longest_valid_segment_fraction: 0.7093969269970656, group_0_planner_min_valid_path_fraction: 0.347298443864013,
+  group_0_planner_moveGroup: left_arm, group_0_planner_range: 80.39444274462605, group_0_planner_timeout: 13.585334734524617,
+  seed: 7726201}
+- -1416.6348290817991
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTkConfigDefault,
+  group_0_planner_border_fraction: 0.06605571821979983, group_0_planner_delay_collision_checking: 1,
+  group_0_planner_failed_expansion_score_factor: 0.5687027904956924, group_0_planner_goal_bias: 0.9900660455103931,
+  group_0_planner_longest_valid_segment_fraction: 0.7093969269970656, group_0_planner_min_valid_path_fraction: 0.347298443864013,
+  group_0_planner_moveGroup: left_arm, group_0_planner_range: 80.39444274462605, group_0_planner_timeout: 13.585334734524617,
+  seed: 4902311}
+- -1530.527800717005
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTkConfigDefault,
+  group_0_planner_border_fraction: 0.06605571821979983, group_0_planner_delay_collision_checking: 1,
+  group_0_planner_failed_expansion_score_factor: 0.5687027904956924, group_0_planner_goal_bias: 0.9900660455103931,
+  group_0_planner_longest_valid_segment_fraction: 0.7093969269970656, group_0_planner_min_valid_path_fraction: 0.347298443864013,
+  group_0_planner_moveGroup: left_arm, group_0_planner_range: 80.39444274462605, group_0_planner_timeout: 13.585334734524617,
+  seed: 3121920}
+- -973.2226933342391
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: LBKPIECEkConfigDefault,
+  group_0_planner_border_fraction: 0.1123231394731532, group_0_planner_delay_collision_checking: 0,
+  group_0_planner_failed_expansion_score_factor: 0.015622706899356532, group_0_planner_goal_bias: 0.3029264502384442,
+  group_0_planner_longest_valid_segment_fraction: 0.9643831765544791, group_0_planner_min_valid_path_fraction: 0.4385255278543314,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 49.73444429031934,
+  group_0_planner_timeout: 13.15356796908247, seed: 685728}
+- -4795.841853633468
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTConnectkConfigDefault,
+  group_0_planner_border_fraction: 0.21131969968585151, group_0_planner_delay_collision_checking: 0,
+  group_0_planner_failed_expansion_score_factor: 0.9572228032710783, group_0_planner_goal_bias: 0.6521594699269133,
+  group_0_planner_longest_valid_segment_fraction: 0.9581408464998508, group_0_planner_min_valid_path_fraction: 0.6356403670290262,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 26.264792522691383,
+  group_0_planner_timeout: 7.963998604468665, seed: 1245643}
+- -7149.307437951003
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTConnectkConfigDefault,
+  group_0_planner_border_fraction: 0.21131969968585151, group_0_planner_delay_collision_checking: 0,
+  group_0_planner_failed_expansion_score_factor: 0.9572228032710783, group_0_planner_goal_bias: 0.6521594699269133,
+  group_0_planner_longest_valid_segment_fraction: 0.9581408464998508, group_0_planner_min_valid_path_fraction: 0.6356403670290262,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 26.264792522691383,
+  group_0_planner_timeout: 7.963998604468665, seed: 3121920}
+- -7250.971606456123
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTConnectkConfigDefault,
+  group_0_planner_border_fraction: 0.21131969968585151, group_0_planner_delay_collision_checking: 0,
+  group_0_planner_failed_expansion_score_factor: 0.9572228032710783, group_0_planner_goal_bias: 0.6521594699269133,
+  group_0_planner_longest_valid_segment_fraction: 0.9581408464998508, group_0_planner_min_valid_path_fraction: 0.6356403670290262,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 26.264792522691383,
+  group_0_planner_timeout: 7.963998604468665, seed: 4189905}
+- -7803.783200913118
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTConnectkConfigDefault,
+  group_0_planner_border_fraction: 0.21131969968585151, group_0_planner_delay_collision_checking: 0,
+  group_0_planner_failed_expansion_score_factor: 0.9572228032710783, group_0_planner_goal_bias: 0.6521594699269133,
+  group_0_planner_longest_valid_segment_fraction: 0.9581408464998508, group_0_planner_min_valid_path_fraction: 0.6356403670290262,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 26.264792522691383,
+  group_0_planner_timeout: 7.963998604468665, seed: 685728}
+- -6552.8683534066
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTConnectkConfigDefault,
+  group_0_planner_border_fraction: 0.21131969968585151, group_0_planner_delay_collision_checking: 0,
+  group_0_planner_failed_expansion_score_factor: 0.9572228032710783, group_0_planner_goal_bias: 0.6521594699269133,
+  group_0_planner_longest_valid_segment_fraction: 0.9581408464998508, group_0_planner_min_valid_path_fraction: 0.6356403670290262,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 26.264792522691383,
+  group_0_planner_timeout: 7.963998604468665, seed: 9212762}
+- -3099.7550642097754
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTConnectkConfigDefault,
+  group_0_planner_border_fraction: 0.21131969968585151, group_0_planner_delay_collision_checking: 0,
+  group_0_planner_failed_expansion_score_factor: 0.9572228032710783, group_0_planner_goal_bias: 0.6521594699269133,
+  group_0_planner_longest_valid_segment_fraction: 0.9581408464998508, group_0_planner_min_valid_path_fraction: 0.6356403670290262,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 26.264792522691383,
+  group_0_planner_timeout: 7.963998604468665, seed: 4902311}
+- -8057.573504949118
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTConnectkConfigDefault,
+  group_0_planner_border_fraction: 0.21131969968585151, group_0_planner_delay_collision_checking: 0,
+  group_0_planner_failed_expansion_score_factor: 0.9572228032710783, group_0_planner_goal_bias: 0.6521594699269133,
+  group_0_planner_longest_valid_segment_fraction: 0.9581408464998508, group_0_planner_min_valid_path_fraction: 0.6356403670290262,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 26.264792522691383,
+  group_0_planner_timeout: 7.963998604468665, seed: 13769913}
+- -8676.347828342321
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTConnectkConfigDefault,
+  group_0_planner_border_fraction: 0.21131969968585151, group_0_planner_delay_collision_checking: 0,
+  group_0_planner_failed_expansion_score_factor: 0.9572228032710783, group_0_planner_goal_bias: 0.6521594699269133,
+  group_0_planner_longest_valid_segment_fraction: 0.9581408464998508, group_0_planner_min_valid_path_fraction: 0.6356403670290262,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 26.264792522691383,
+  group_0_planner_timeout: 7.963998604468665, seed: 15270025}
+- -10593.337529270282
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTConnectkConfigDefault,
+  group_0_planner_border_fraction: 0.21131969968585151, group_0_planner_delay_collision_checking: 0,
+  group_0_planner_failed_expansion_score_factor: 0.9572228032710783, group_0_planner_goal_bias: 0.6521594699269133,
+  group_0_planner_longest_valid_segment_fraction: 0.9581408464998508, group_0_planner_min_valid_path_fraction: 0.6356403670290262,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 26.264792522691383,
+  group_0_planner_timeout: 7.963998604468665, seed: 3341963}
+- -13522.882687571424
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTConnectkConfigDefault,
+  group_0_planner_border_fraction: 0.21131969968585151, group_0_planner_delay_collision_checking: 0,
+  group_0_planner_failed_expansion_score_factor: 0.9572228032710783, group_0_planner_goal_bias: 0.6521594699269133,
+  group_0_planner_longest_valid_segment_fraction: 0.9581408464998508, group_0_planner_min_valid_path_fraction: 0.6356403670290262,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 26.264792522691383,
+  group_0_planner_timeout: 7.963998604468665, seed: 7726201}
+- -13514.715341275554
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTConnectkConfigDefault,
+  group_0_planner_border_fraction: 0.21131969968585151, group_0_planner_delay_collision_checking: 0,
+  group_0_planner_failed_expansion_score_factor: 0.9572228032710783, group_0_planner_goal_bias: 0.6521594699269133,
+  group_0_planner_longest_valid_segment_fraction: 0.9581408464998508, group_0_planner_min_valid_path_fraction: 0.6356403670290262,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 26.264792522691383,
+  group_0_planner_timeout: 7.963998604468665, seed: 13908709}
+- -12251.806518451069
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTConnectkConfigDefault,
+  group_0_planner_border_fraction: 0.21131969968585151, group_0_planner_delay_collision_checking: 0,
+  group_0_planner_failed_expansion_score_factor: 0.9572228032710783, group_0_planner_goal_bias: 0.6521594699269133,
+  group_0_planner_longest_valid_segment_fraction: 0.9581408464998508, group_0_planner_min_valid_path_fraction: 0.6356403670290262,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 26.264792522691383,
+  group_0_planner_timeout: 7.963998604468665, seed: 11284137}
+- -12588.763130259385
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTConnectkConfigDefault,
+  group_0_planner_border_fraction: 0.21131969968585151, group_0_planner_delay_collision_checking: 0,
+  group_0_planner_failed_expansion_score_factor: 0.9572228032710783, group_0_planner_goal_bias: 0.6521594699269133,
+  group_0_planner_longest_valid_segment_fraction: 0.9581408464998508, group_0_planner_min_valid_path_fraction: 0.6356403670290262,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 26.264792522691383,
+  group_0_planner_timeout: 7.963998604468665, seed: 8835615}
+- -14414.171688508824
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTConnectkConfigDefault,
+  group_0_planner_border_fraction: 0.21131969968585151, group_0_planner_delay_collision_checking: 0,
+  group_0_planner_failed_expansion_score_factor: 0.9572228032710783, group_0_planner_goal_bias: 0.6521594699269133,
+  group_0_planner_longest_valid_segment_fraction: 0.9581408464998508, group_0_planner_min_valid_path_fraction: 0.6356403670290262,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 26.264792522691383,
+  group_0_planner_timeout: 7.963998604468665, seed: 11943967}
+- -13692.759831029452
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTkConfigDefault,
+  group_0_planner_border_fraction: 0.0465799499918389, group_0_planner_delay_collision_checking: 0,
+  group_0_planner_failed_expansion_score_factor: 0.7878337645423652, group_0_planner_goal_bias: 0.21567374314323984,
+  group_0_planner_longest_valid_segment_fraction: 0.522315481806855, group_0_planner_min_valid_path_fraction: 0.9841567420731832,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 67.17995432290637,
+  group_0_planner_timeout: 10.884652009174829, seed: 11943967}
+- -2934.3944059410214
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTConnectkConfigDefault,
+  group_0_planner_border_fraction: 0.21131969968585151, group_0_planner_delay_collision_checking: 0,
+  group_0_planner_failed_expansion_score_factor: 0.9572228032710783, group_0_planner_goal_bias: 0.6521594699269133,
+  group_0_planner_longest_valid_segment_fraction: 0.9581408464998508, group_0_planner_min_valid_path_fraction: 0.6356403670290262,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 26.264792522691383,
+  group_0_planner_timeout: 7.963998604468665, seed: 5591806}
+- -21521.775990562113
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTkConfigDefault,
+  group_0_planner_border_fraction: 0.3875260593108707, group_0_planner_delay_collision_checking: 0,
+  group_0_planner_failed_expansion_score_factor: 0.9903211558526019, group_0_planner_goal_bias: 0.38745582193246453,
+  group_0_planner_longest_valid_segment_fraction: 0.164298705765652, group_0_planner_min_valid_path_fraction: 0.41532449587481846,
+  group_0_planner_moveGroup: left_arm, group_0_planner_range: 42.29244059100803, group_0_planner_timeout: 10.538744911320846,
+  seed: 13908709}
+- -4354.768474508263
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTConnectkConfigDefault,
+  group_0_planner_border_fraction: 0.21131969968585151, group_0_planner_delay_collision_checking: 0,
+  group_0_planner_failed_expansion_score_factor: 0.9572228032710783, group_0_planner_goal_bias: 0.6521594699269133,
+  group_0_planner_longest_valid_segment_fraction: 0.9581408464998508, group_0_planner_min_valid_path_fraction: 0.6356403670290262,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 26.264792522691383,
+  group_0_planner_timeout: 7.963998604468665, seed: 1956522}
+- -19941.114940799584
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: LBKPIECEkConfigDefault,
+  group_0_planner_border_fraction: 0.15437872796876406, group_0_planner_delay_collision_checking: 1,
+  group_0_planner_failed_expansion_score_factor: 0.7938555828430293, group_0_planner_goal_bias: 0.2585087200488867,
+  group_0_planner_longest_valid_segment_fraction: 0.05072467963738803, group_0_planner_min_valid_path_fraction: 0.4572446028764585,
+  group_0_planner_moveGroup: left_arm, group_0_planner_range: 95.5566842587696, group_0_planner_timeout: 14.720393521959556,
+  seed: 3341963}
+- -5459.173015902763
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTConnectkConfigDefault,
+  group_0_planner_border_fraction: 0.21131969968585151, group_0_planner_delay_collision_checking: 0,
+  group_0_planner_failed_expansion_score_factor: 0.9572228032710783, group_0_planner_goal_bias: 0.6521594699269133,
+  group_0_planner_longest_valid_segment_fraction: 0.9581408464998508, group_0_planner_min_valid_path_fraction: 0.6356403670290262,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 26.264792522691383,
+  group_0_planner_timeout: 7.963998604468665, seed: 9381735}
+- -25761.754303134152
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: LBKPIECEkConfigDefault,
+  group_0_planner_border_fraction: 0.8769600497426947, group_0_planner_delay_collision_checking: 1,
+  group_0_planner_failed_expansion_score_factor: 0.9891361094863781, group_0_planner_goal_bias: 0.6503670316727417,
+  group_0_planner_longest_valid_segment_fraction: 0.5726430378516524, group_0_planner_min_valid_path_fraction: 0.5192492248928242,
+  group_0_planner_moveGroup: left_arm, group_0_planner_range: 71.44800106926297, group_0_planner_timeout: 10.094771843164835,
+  seed: 5591806}
+- -4724.544064824799
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTConnectkConfigDefault,
+  group_0_planner_border_fraction: 0.21131969968585151, group_0_planner_delay_collision_checking: 0,
+  group_0_planner_failed_expansion_score_factor: 0.9572228032710783, group_0_planner_goal_bias: 0.6521594699269133,
+  group_0_planner_longest_valid_segment_fraction: 0.9581408464998508, group_0_planner_min_valid_path_fraction: 0.6356403670290262,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 26.264792522691383,
+  group_0_planner_timeout: 7.963998604468665, seed: 15705719}
+- -21049.134760170105
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTStarkConfigDefault,
+  group_0_planner_border_fraction: 0.3875260593108707, group_0_planner_delay_collision_checking: 0,
+  group_0_planner_failed_expansion_score_factor: 0.9591086507640406, group_0_planner_goal_bias: 0.38745582193246453,
+  group_0_planner_longest_valid_segment_fraction: 0.6446415447627921, group_0_planner_min_valid_path_fraction: 0.571027355366776,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 17.467313046578404,
+  group_0_planner_timeout: 10.538744911320846, seed: 4902311}
+- -8308.458914585672
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTConnectkConfigDefault,
+  group_0_planner_border_fraction: 0.21131969968585151, group_0_planner_delay_collision_checking: 0,
+  group_0_planner_failed_expansion_score_factor: 0.9572228032710783, group_0_planner_goal_bias: 0.6521594699269133,
+  group_0_planner_longest_valid_segment_fraction: 0.9581408464998508, group_0_planner_min_valid_path_fraction: 0.6356403670290262,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 26.264792522691383,
+  group_0_planner_timeout: 7.963998604468665, seed: 3641959}
+- -29309.8654530017
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTkConfigDefault,
+  group_0_planner_border_fraction: 0.4122589809387299, group_0_planner_delay_collision_checking: 0,
+  group_0_planner_failed_expansion_score_factor: 0.8708753961373064, group_0_planner_goal_bias: 0.46240096192956337,
+  group_0_planner_longest_valid_segment_fraction: 0.7842638373712382, group_0_planner_min_valid_path_fraction: 0.44380598763844503,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 58.00336999232133,
+  group_0_planner_timeout: 14.01628301222441, seed: 1245643}
+- -37828.83380243848
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTkConfigDefault,
+  group_0_planner_border_fraction: 0.4122589809387299, group_0_planner_delay_collision_checking: 0,
+  group_0_planner_failed_expansion_score_factor: 0.8708753961373064, group_0_planner_goal_bias: 0.46240096192956337,
+  group_0_planner_longest_valid_segment_fraction: 0.7842638373712382, group_0_planner_min_valid_path_fraction: 0.44380598763844503,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 58.00336999232133,
+  group_0_planner_timeout: 14.01628301222441, seed: 3341963}
+- -39939.71643187666
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTkConfigDefault,
+  group_0_planner_border_fraction: 0.4122589809387299, group_0_planner_delay_collision_checking: 0,
+  group_0_planner_failed_expansion_score_factor: 0.8708753961373064, group_0_planner_goal_bias: 0.46240096192956337,
+  group_0_planner_longest_valid_segment_fraction: 0.7842638373712382, group_0_planner_min_valid_path_fraction: 0.44380598763844503,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 58.00336999232133,
+  group_0_planner_timeout: 14.01628301222441, seed: 685728}
+- -42633.50313500416
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTkConfigDefault,
+  group_0_planner_border_fraction: 0.4122589809387299, group_0_planner_delay_collision_checking: 0,
+  group_0_planner_failed_expansion_score_factor: 0.8708753961373064, group_0_planner_goal_bias: 0.46240096192956337,
+  group_0_planner_longest_valid_segment_fraction: 0.7842638373712382, group_0_planner_min_valid_path_fraction: 0.44380598763844503,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 58.00336999232133,
+  group_0_planner_timeout: 14.01628301222441, seed: 5591806}
+- -30366.217620971158
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTkConfigDefault,
+  group_0_planner_border_fraction: 0.4122589809387299, group_0_planner_delay_collision_checking: 0,
+  group_0_planner_failed_expansion_score_factor: 0.8708753961373064, group_0_planner_goal_bias: 0.46240096192956337,
+  group_0_planner_longest_valid_segment_fraction: 0.7842638373712382, group_0_planner_min_valid_path_fraction: 0.44380598763844503,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 58.00336999232133,
+  group_0_planner_timeout: 14.01628301222441, seed: 9212762}
+- -8746.803011938391
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTkConfigDefault,
+  group_0_planner_border_fraction: 0.4122589809387299, group_0_planner_delay_collision_checking: 0,
+  group_0_planner_failed_expansion_score_factor: 0.8708753961373064, group_0_planner_goal_bias: 0.46240096192956337,
+  group_0_planner_longest_valid_segment_fraction: 0.7842638373712382, group_0_planner_min_valid_path_fraction: 0.44380598763844503,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 58.00336999232133,
+  group_0_planner_timeout: 14.01628301222441, seed: 11284137}
+- -49279.094893765454
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTkConfigDefault,
+  group_0_planner_border_fraction: 0.4122589809387299, group_0_planner_delay_collision_checking: 0,
+  group_0_planner_failed_expansion_score_factor: 0.8708753961373064, group_0_planner_goal_bias: 0.46240096192956337,
+  group_0_planner_longest_valid_segment_fraction: 0.7842638373712382, group_0_planner_min_valid_path_fraction: 0.44380598763844503,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 58.00336999232133,
+  group_0_planner_timeout: 14.01628301222441, seed: 4189905}
+- -49780.37413837841
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTkConfigDefault,
+  group_0_planner_border_fraction: 0.4122589809387299, group_0_planner_delay_collision_checking: 0,
+  group_0_planner_failed_expansion_score_factor: 0.8708753961373064, group_0_planner_goal_bias: 0.46240096192956337,
+  group_0_planner_longest_valid_segment_fraction: 0.7842638373712382, group_0_planner_min_valid_path_fraction: 0.44380598763844503,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 58.00336999232133,
+  group_0_planner_timeout: 14.01628301222441, seed: 4902311}
+- -52290.78046749927
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTkConfigDefault,
+  group_0_planner_border_fraction: 0.4122589809387299, group_0_planner_delay_collision_checking: 0,
+  group_0_planner_failed_expansion_score_factor: 0.8708753961373064, group_0_planner_goal_bias: 0.46240096192956337,
+  group_0_planner_longest_valid_segment_fraction: 0.7842638373712382, group_0_planner_min_valid_path_fraction: 0.44380598763844503,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 58.00336999232133,
+  group_0_planner_timeout: 14.01628301222441, seed: 7726201}
+- -58554.14692414058
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTkConfigDefault,
+  group_0_planner_border_fraction: 0.4122589809387299, group_0_planner_delay_collision_checking: 0,
+  group_0_planner_failed_expansion_score_factor: 0.8708753961373064, group_0_planner_goal_bias: 0.46240096192956337,
+  group_0_planner_longest_valid_segment_fraction: 0.7842638373712382, group_0_planner_min_valid_path_fraction: 0.44380598763844503,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 58.00336999232133,
+  group_0_planner_timeout: 14.01628301222441, seed: 11943967}
+- -51769.43596212788
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTkConfigDefault,
+  group_0_planner_border_fraction: 0.4122589809387299, group_0_planner_delay_collision_checking: 0,
+  group_0_planner_failed_expansion_score_factor: 0.8708753961373064, group_0_planner_goal_bias: 0.46240096192956337,
+  group_0_planner_longest_valid_segment_fraction: 0.7842638373712382, group_0_planner_min_valid_path_fraction: 0.44380598763844503,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 58.00336999232133,
+  group_0_planner_timeout: 14.01628301222441, seed: 13769913}
+- -60998.81383389285
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTkConfigDefault,
+  group_0_planner_border_fraction: 0.4122589809387299, group_0_planner_delay_collision_checking: 0,
+  group_0_planner_failed_expansion_score_factor: 0.8708753961373064, group_0_planner_goal_bias: 0.46240096192956337,
+  group_0_planner_longest_valid_segment_fraction: 0.7842638373712382, group_0_planner_min_valid_path_fraction: 0.44380598763844503,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 58.00336999232133,
+  group_0_planner_timeout: 14.01628301222441, seed: 15270025}
+- -68517.45554877081
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTkConfigDefault,
+  group_0_planner_border_fraction: 0.4122589809387299, group_0_planner_delay_collision_checking: 0,
+  group_0_planner_failed_expansion_score_factor: 0.8708753961373064, group_0_planner_goal_bias: 0.46240096192956337,
+  group_0_planner_longest_valid_segment_fraction: 0.7842638373712382, group_0_planner_min_valid_path_fraction: 0.44380598763844503,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 58.00336999232133,
+  group_0_planner_timeout: 14.01628301222441, seed: 3121920}
+- -58553.9325573831
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTkConfigDefault,
+  group_0_planner_border_fraction: 0.4122589809387299, group_0_planner_delay_collision_checking: 0,
+  group_0_planner_failed_expansion_score_factor: 0.8708753961373064, group_0_planner_goal_bias: 0.46240096192956337,
+  group_0_planner_longest_valid_segment_fraction: 0.7842638373712382, group_0_planner_min_valid_path_fraction: 0.44380598763844503,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 58.00336999232133,
+  group_0_planner_timeout: 14.01628301222441, seed: 15705719}
+- -61043.496322984145
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTkConfigDefault,
+  group_0_planner_border_fraction: 0.4122589809387299, group_0_planner_delay_collision_checking: 0,
+  group_0_planner_failed_expansion_score_factor: 0.8708753961373064, group_0_planner_goal_bias: 0.46240096192956337,
+  group_0_planner_longest_valid_segment_fraction: 0.7842638373712382, group_0_planner_min_valid_path_fraction: 0.44380598763844503,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 58.00336999232133,
+  group_0_planner_timeout: 14.01628301222441, seed: 9381735}
+- -70711.28623386586
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTkConfigDefault,
+  group_0_planner_border_fraction: 0.4122589809387299, group_0_planner_delay_collision_checking: 0,
+  group_0_planner_failed_expansion_score_factor: 0.8708753961373064, group_0_planner_goal_bias: 0.46240096192956337,
+  group_0_planner_longest_valid_segment_fraction: 0.7842638373712382, group_0_planner_min_valid_path_fraction: 0.44380598763844503,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 58.00336999232133,
+  group_0_planner_timeout: 14.01628301222441, seed: 3641959}
+- -27914.39594114506
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTkConfigDefault,
+  group_0_planner_border_fraction: 0.4122589809387299, group_0_planner_delay_collision_checking: 0,
+  group_0_planner_failed_expansion_score_factor: 0.8708753961373064, group_0_planner_goal_bias: 0.46240096192956337,
+  group_0_planner_longest_valid_segment_fraction: 0.7842638373712382, group_0_planner_min_valid_path_fraction: 0.44380598763844503,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 58.00336999232133,
+  group_0_planner_timeout: 14.01628301222441, seed: 13908709}
+- -65231.13212594188
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTkConfigDefault,
+  group_0_planner_border_fraction: 0.4122589809387299, group_0_planner_delay_collision_checking: 0,
+  group_0_planner_failed_expansion_score_factor: 0.8708753961373064, group_0_planner_goal_bias: 0.46240096192956337,
+  group_0_planner_longest_valid_segment_fraction: 0.7842638373712382, group_0_planner_min_valid_path_fraction: 0.44380598763844503,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 58.00336999232133,
+  group_0_planner_timeout: 14.01628301222441, seed: 8835615}
+- -86471.01570621338
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTkConfigDefault,
+  group_0_planner_border_fraction: 0.4122589809387299, group_0_planner_delay_collision_checking: 0,
+  group_0_planner_failed_expansion_score_factor: 0.8708753961373064, group_0_planner_goal_bias: 0.46240096192956337,
+  group_0_planner_longest_valid_segment_fraction: 0.7842638373712382, group_0_planner_min_valid_path_fraction: 0.44380598763844503,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 58.00336999232133,
+  group_0_planner_timeout: 14.01628301222441, seed: 1956522}
+- -87386.67319122437
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTkConfigDefault,
+  group_0_planner_border_fraction: 0.4122589809387299, group_0_planner_delay_collision_checking: 0,
+  group_0_planner_failed_expansion_score_factor: 0.8708753961373064, group_0_planner_goal_bias: 0.46240096192956337,
+  group_0_planner_longest_valid_segment_fraction: 0.7842638373712382, group_0_planner_min_valid_path_fraction: 0.44380598763844503,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 58.00336999232133,
+  group_0_planner_timeout: 14.01628301222441, seed: 6824435}
+- -93670.7036752174
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTConnectkConfigDefault,
+  group_0_planner_border_fraction: 0.42172777036620934, group_0_planner_delay_collision_checking: 1,
+  group_0_planner_failed_expansion_score_factor: 0.006514673294979447, group_0_planner_goal_bias: 0.838754790358937,
+  group_0_planner_longest_valid_segment_fraction: 0.7369353193873556, group_0_planner_min_valid_path_fraction: 0.6094078008198756,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 46.382955238268444,
+  group_0_planner_timeout: 14.011416941377794, seed: 15705719}
+- -84234.70634406334
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTConnectkConfigDefault,
+  group_0_planner_border_fraction: 0.42172777036620934, group_0_planner_delay_collision_checking: 1,
+  group_0_planner_failed_expansion_score_factor: 0.006514673294979447, group_0_planner_goal_bias: 0.838754790358937,
+  group_0_planner_longest_valid_segment_fraction: 0.7369353193873556, group_0_planner_min_valid_path_fraction: 0.6094078008198756,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 46.382955238268444,
+  group_0_planner_timeout: 14.011416941377794, seed: 5591806}
+- -80206.24250692205
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTConnectkConfigDefault,
+  group_0_planner_border_fraction: 0.42172777036620934, group_0_planner_delay_collision_checking: 1,
+  group_0_planner_failed_expansion_score_factor: 0.006514673294979447, group_0_planner_goal_bias: 0.838754790358937,
+  group_0_planner_longest_valid_segment_fraction: 0.7369353193873556, group_0_planner_min_valid_path_fraction: 0.6094078008198756,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 46.382955238268444,
+  group_0_planner_timeout: 14.011416941377794, seed: 3341963}
+- -55766.73209065506
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTConnectkConfigDefault,
+  group_0_planner_border_fraction: 0.42172777036620934, group_0_planner_delay_collision_checking: 1,
+  group_0_planner_failed_expansion_score_factor: 0.006514673294979447, group_0_planner_goal_bias: 0.838754790358937,
+  group_0_planner_longest_valid_segment_fraction: 0.7369353193873556, group_0_planner_min_valid_path_fraction: 0.6094078008198756,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 46.382955238268444,
+  group_0_planner_timeout: 14.011416941377794, seed: 685728}
+- -88931.84234301352
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTConnectkConfigDefault,
+  group_0_planner_border_fraction: 0.42172777036620934, group_0_planner_delay_collision_checking: 1,
+  group_0_planner_failed_expansion_score_factor: 0.006514673294979447, group_0_planner_goal_bias: 0.838754790358937,
+  group_0_planner_longest_valid_segment_fraction: 0.7369353193873556, group_0_planner_min_valid_path_fraction: 0.6094078008198756,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 46.382955238268444,
+  group_0_planner_timeout: 14.011416941377794, seed: 11943967}
+- -85003.96404450932
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTConnectkConfigDefault,
+  group_0_planner_border_fraction: 0.42172777036620934, group_0_planner_delay_collision_checking: 1,
+  group_0_planner_failed_expansion_score_factor: 0.006514673294979447, group_0_planner_goal_bias: 0.838754790358937,
+  group_0_planner_longest_valid_segment_fraction: 0.7369353193873556, group_0_planner_min_valid_path_fraction: 0.6094078008198756,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 46.382955238268444,
+  group_0_planner_timeout: 14.011416941377794, seed: 8835615}
+- -65360.51906989477
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTConnectkConfigDefault,
+  group_0_planner_border_fraction: 0.42172777036620934, group_0_planner_delay_collision_checking: 1,
+  group_0_planner_failed_expansion_score_factor: 0.006514673294979447, group_0_planner_goal_bias: 0.838754790358937,
+  group_0_planner_longest_valid_segment_fraction: 0.7369353193873556, group_0_planner_min_valid_path_fraction: 0.6094078008198756,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 46.382955238268444,
+  group_0_planner_timeout: 14.011416941377794, seed: 7726201}
+- -74502.25043181569
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTConnectkConfigDefault,
+  group_0_planner_border_fraction: 0.42172777036620934, group_0_planner_delay_collision_checking: 1,
+  group_0_planner_failed_expansion_score_factor: 0.006514673294979447, group_0_planner_goal_bias: 0.838754790358937,
+  group_0_planner_longest_valid_segment_fraction: 0.7369353193873556, group_0_planner_min_valid_path_fraction: 0.6094078008198756,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 46.382955238268444,
+  group_0_planner_timeout: 14.011416941377794, seed: 11284137}
+- -78339.26851096604
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTConnectkConfigDefault,
+  group_0_planner_border_fraction: 0.42172777036620934, group_0_planner_delay_collision_checking: 1,
+  group_0_planner_failed_expansion_score_factor: 0.006514673294979447, group_0_planner_goal_bias: 0.838754790358937,
+  group_0_planner_longest_valid_segment_fraction: 0.7369353193873556, group_0_planner_min_valid_path_fraction: 0.6094078008198756,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 46.382955238268444,
+  group_0_planner_timeout: 14.011416941377794, seed: 1245643}
+- -119611.1407343909
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTConnectkConfigDefault,
+  group_0_planner_border_fraction: 0.42172777036620934, group_0_planner_delay_collision_checking: 1,
+  group_0_planner_failed_expansion_score_factor: 0.006514673294979447, group_0_planner_goal_bias: 0.838754790358937,
+  group_0_planner_longest_valid_segment_fraction: 0.7369353193873556, group_0_planner_min_valid_path_fraction: 0.6094078008198756,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 46.382955238268444,
+  group_0_planner_timeout: 14.011416941377794, seed: 3641959}
+- -125442.74689995123
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTConnectkConfigDefault,
+  group_0_planner_border_fraction: 0.42172777036620934, group_0_planner_delay_collision_checking: 1,
+  group_0_planner_failed_expansion_score_factor: 0.006514673294979447, group_0_planner_goal_bias: 0.838754790358937,
+  group_0_planner_longest_valid_segment_fraction: 0.7369353193873556, group_0_planner_min_valid_path_fraction: 0.6094078008198756,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 46.382955238268444,
+  group_0_planner_timeout: 14.011416941377794, seed: 3121920}
+- -121014.67822858327
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTConnectkConfigDefault,
+  group_0_planner_border_fraction: 0.42172777036620934, group_0_planner_delay_collision_checking: 1,
+  group_0_planner_failed_expansion_score_factor: 0.006514673294979447, group_0_planner_goal_bias: 0.838754790358937,
+  group_0_planner_longest_valid_segment_fraction: 0.7369353193873556, group_0_planner_min_valid_path_fraction: 0.6094078008198756,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 46.382955238268444,
+  group_0_planner_timeout: 14.011416941377794, seed: 15270025}
+- -133506.88457501933
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTConnectkConfigDefault,
+  group_0_planner_border_fraction: 0.42172777036620934, group_0_planner_delay_collision_checking: 1,
+  group_0_planner_failed_expansion_score_factor: 0.006514673294979447, group_0_planner_goal_bias: 0.838754790358937,
+  group_0_planner_longest_valid_segment_fraction: 0.7369353193873556, group_0_planner_min_valid_path_fraction: 0.6094078008198756,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 46.382955238268444,
+  group_0_planner_timeout: 14.011416941377794, seed: 9212762}
+- -142823.515816978
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTConnectkConfigDefault,
+  group_0_planner_border_fraction: 0.42172777036620934, group_0_planner_delay_collision_checking: 1,
+  group_0_planner_failed_expansion_score_factor: 0.006514673294979447, group_0_planner_goal_bias: 0.838754790358937,
+  group_0_planner_longest_valid_segment_fraction: 0.7369353193873556, group_0_planner_min_valid_path_fraction: 0.6094078008198756,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 46.382955238268444,
+  group_0_planner_timeout: 14.011416941377794, seed: 1956522}
+- -112915.91412963558
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTConnectkConfigDefault,
+  group_0_planner_border_fraction: 0.42172777036620934, group_0_planner_delay_collision_checking: 1,
+  group_0_planner_failed_expansion_score_factor: 0.006514673294979447, group_0_planner_goal_bias: 0.838754790358937,
+  group_0_planner_longest_valid_segment_fraction: 0.7369353193873556, group_0_planner_min_valid_path_fraction: 0.6094078008198756,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 46.382955238268444,
+  group_0_planner_timeout: 14.011416941377794, seed: 6824435}
+- -109956.00164475918
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTConnectkConfigDefault,
+  group_0_planner_border_fraction: 0.42172777036620934, group_0_planner_delay_collision_checking: 1,
+  group_0_planner_failed_expansion_score_factor: 0.006514673294979447, group_0_planner_goal_bias: 0.838754790358937,
+  group_0_planner_longest_valid_segment_fraction: 0.7369353193873556, group_0_planner_min_valid_path_fraction: 0.6094078008198756,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 46.382955238268444,
+  group_0_planner_timeout: 14.011416941377794, seed: 9381735}
+- -130308.2934115149
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTConnectkConfigDefault,
+  group_0_planner_border_fraction: 0.42172777036620934, group_0_planner_delay_collision_checking: 1,
+  group_0_planner_failed_expansion_score_factor: 0.006514673294979447, group_0_planner_goal_bias: 0.838754790358937,
+  group_0_planner_longest_valid_segment_fraction: 0.7369353193873556, group_0_planner_min_valid_path_fraction: 0.6094078008198756,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 46.382955238268444,
+  group_0_planner_timeout: 14.011416941377794, seed: 4902311}
+- -140869.40187358868
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTConnectkConfigDefault,
+  group_0_planner_border_fraction: 0.42172777036620934, group_0_planner_delay_collision_checking: 1,
+  group_0_planner_failed_expansion_score_factor: 0.006514673294979447, group_0_planner_goal_bias: 0.838754790358937,
+  group_0_planner_longest_valid_segment_fraction: 0.7369353193873556, group_0_planner_min_valid_path_fraction: 0.6094078008198756,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 46.382955238268444,
+  group_0_planner_timeout: 14.011416941377794, seed: 13908709}
+- -146205.21901106104
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTConnectkConfigDefault,
+  group_0_planner_border_fraction: 0.42172777036620934, group_0_planner_delay_collision_checking: 1,
+  group_0_planner_failed_expansion_score_factor: 0.006514673294979447, group_0_planner_goal_bias: 0.838754790358937,
+  group_0_planner_longest_valid_segment_fraction: 0.7369353193873556, group_0_planner_min_valid_path_fraction: 0.6094078008198756,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 46.382955238268444,
+  group_0_planner_timeout: 14.011416941377794, seed: 13769913}
+- -159270.493474589
+!!python/tuple
+- {group_0_controller: MoveItWrapper, group_0_planner: MoveItWrapper, group_0_planner_algorithm: RRTConnectkConfigDefault,
+  group_0_planner_border_fraction: 0.42172777036620934, group_0_planner_delay_collision_checking: 1,
+  group_0_planner_failed_expansion_score_factor: 0.006514673294979447, group_0_planner_goal_bias: 0.838754790358937,
+  group_0_planner_longest_valid_segment_fraction: 0.7369353193873556, group_0_planner_min_valid_path_fraction: 0.6094078008198756,
+  group_0_planner_moveGroup: right_arm, group_0_planner_range: 46.382955238268444,
+  group_0_planner_timeout: 14.011416941377794, seed: 4189905}
+- -124971.50882692821
+# Best score is  -108962.066199
+# Best parameters are  {'group_0_planner_longest_valid_segment_fraction': '0.7369353193873556', 'group_0_planner_algorithm': 'RRTConnectkConfigDefault', 'group_0_planner': 'MoveItWrapper', 'group_0_planner_border_fraction': '0.42172777036620934', 'group_0_planner_range': '46.382955238268444', 'group_0_planner_delay_collision_checking': '1', 'group_0_planner_failed_expansion_score_factor': '0.006514673294979447', 'group_0_planner_timeout': '14.011416941377794', 'group_0_planner_goal_bias': '0.838754790358937', 'group_0_planner_min_valid_path_fraction': '0.6094078008198756', 'group_0_controller': 'MoveItWrapper', 'group_0_planner_moveGroup': 'right_arm'}

@@ -1,0 +1,10 @@
+!Task
+actions:
+- !MoveArmAction
+  constraints: {}
+  goal: !PositionWrapper {position: !ndarray '[0.22, 1.0, 0.7]'}
+  name: move_action2
+- !MoveArmAction
+  constraints: {}
+  goal: !PositionWrapper {position: !ndarray '[0.24, 1.05, 0.9]'}
+  name: move_action1

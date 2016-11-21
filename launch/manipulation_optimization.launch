@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<launch>
+  <node name="ask_point_cloud_server" pkg="manipulation_optimizer" type="ask_point_cloud_server"></node>
+
+  <node name="calc_grasppoints_svm_action_server" pkg="haf_grasping" type="calc_grasppoints_action_server">
+    </node>
+
+  <!--
+     <node name="ManipulationOptimizer" pkg="manipulation_optimizer" type="ROSManipulationOptimizer.py"
+      args="- -gzModelPathsFile $(find manipulation_optimizer)/data/gazebo_model_paths.yaml
+      - -portfolio $(find manipulation_optimizer)/data/portfolio.yaml
+      - -scene $(find manipulation_optimizer)/data/test.yaml" />
+
+   We load the empty baxter world for now and populate it with objects later.
+        This eventually needs to be replaced by a launch file setting up gazebo with the actual
+        robot used in RobDREAM. -->
+
+  <!-- <node name="JointTrajectoryActionServer" pkg="baxter_interface" type="joint_trajectory_action_server.py" /> -->
+  <include file="$(find manipulation_optimizer)/launch/gazebo_baxter.launch">
+    <arg name="paused" value="false"/>
+    <arg name="use_sim_time" value="false"/>
+    <arg name="gui" value="true"/>
+    <arg name="headless" value="false"/>
+    <arg name="debug" value="false"/>
+    <arg name="left_electric_gripper" value="true"/>
+    <arg name="right_electric_gripper" value="true"/>
+  </include>
+
+</launch>

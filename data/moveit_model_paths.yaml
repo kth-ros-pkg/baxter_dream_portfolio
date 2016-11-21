@@ -1,0 +1,10 @@
+base_path: $ROS_PACKAGE_PATH(manipulation_optimizer)/
+models:
+    crayola_64_ct: !Mesh {meshFile: data/models/gazebo/crayola_64_ct/meshes/crayola_64_ct.dae, pose: !Pose {orientation: !ndarray '[0.0, 0.0, 0.0, 1.0]', position: !ndarray '[0.0, 0.0, 0.0]'}}
+    cafe_table: !Mesh {meshFile: data/models/gazebo/cafe_table/meshes/cafe_table.stl, pose: !Pose {orientation: !ndarray '[0.0, 0.0, 0.0, 1.0]', position: !ndarray '[0.0, 0.0, 0.0]'}}
+    order_bin: !Box {height: 0.6096, length: 0.381, width: 0.2032}
+    ground_plane: !Box {height: 0.02, length: 10.0, width: 10.0}
+    kiva_pod: !Mesh {meshFile: data/models/gazebo/kiva_pod/meshes/pod_lowres.stl, pose: !Pose {orientation: !ndarray '[0.70711, 0.0, 0.0, 0.70711]', position: !ndarray '[0.0, 0.0, 0.0]'}}
+    coke_can: !Mesh {meshFile: data/models/gazebo/coke_can/meshes/coke_can.stl, pose: !Pose {orientation: !ndarray '[0.0, 0.0, 0.0, 1.0]', position: !ndarray '[0.0, 0.0, 0.0]'}}
+    box_table: !Box {height: 1.0, length: 1.0, width: 1.0}
+    milk_box: !Box {height: 0.25, length: 0.08, width: 0.1}

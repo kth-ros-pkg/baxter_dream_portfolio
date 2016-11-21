@@ -1,0 +1,38 @@
+!Task
+actions:
+- !MoveArmAction
+  constraints: {}
+  goal: !Pose {orientation: !ndarray '[0.0, 0.70710678, 0.0, 0.70710678]', position: !ndarray '[0.731374, 0.283223, 1.418019]'}
+  name: move_to_binD
+  optional: True
+  parameterGroup: group_0
+- !MoveArmAction
+  constraints: {}
+  goal: !Pose {orientation: !ndarray '[0.0, 0.70710678, 0.0, 0.70710678]', position: !ndarray '[1.034096, 0.283223, 1.418019]'}
+  name: move_in_binD
+  optional: True
+  parameterGroup: group_0
+- !MoveArmAction
+  constraints: {}
+  goal: !Pose {orientation: !ndarray '[0.0, 0.70710678, 0.0, 0.70710678]', position: !ndarray '[0.731374, 0.283223, 1.418019]'}
+  name: move_out_of_binD
+  optional: True
+  parameterGroup: group_0
+- !MoveArmAction
+  constraints: {}
+  goal: !Pose {orientation: !ndarray '[0.0, 0.70710678, 0.0, 0.70710678]', position: !ndarray '[0.731374, 0.010095, 1.205399]'}
+  name: move_to_binH
+  optional: True
+  parameterGroup: group_0
+- !MoveArmAction
+  constraints: {}
+  goal: !Pose {orientation: !ndarray '[0.0, 0.70710678, 0.0, 0.70710678]', position: !ndarray '[1.034096, 0.010095, 1.205399]'}
+  name: move_in_binH
+  optional: True
+  parameterGroup: group_0
+- !MoveArmAction
+  constraints: {}
+  goal: !Pose {orientation: !ndarray '[0.0, 0.70710678, 0.0, 0.70710678]', position: !ndarray '[0.731374, 0.010095, 1.205399]'}
+  name: move_out_of_binH
+  optional: True
+  parameterGroup: group_0

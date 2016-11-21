@@ -1,0 +1,9 @@
+{
+    crayola_64_ct: $ROS_PACKAGE_PATH(manipulation_optimizer)/data/models/gazebo/crayola_64_ct/model.sdf,
+    cafe_table: $ROS_PACKAGE_PATH(manipulation_optimizer)/data/models/gazebo/cafe_table/model.sdf,
+    order_bin: $ROS_PACKAGE_PATH(manipulation_optimizer)/data/models/gazebo/order_bin/model.sdf,
+    coke_can: $ROS_PACKAGE_PATH(manipulation_optimizer)/data/models/gazebo/coke_can.sdf,
+    kiva_pod: $ROS_PACKAGE_PATH(manipulation_optimizer)/data/models/gazebo/kiva_pod/model.sdf,
+    box_table: $ROS_PACKAGE_PATH(manipulation_optimizer)/data/models/gazebo/box_table.sdf,
+    milk_box: $ROS_PACKAGE_PATH(manipulation_optimizer)/data/models/gazebo/box.sdf
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<launch>
+  <node name="JointTrajectoryActionServer" pkg="baxter_interface" type="joint_trajectory_action_server.py" />
+</launch>
