@@ -4,6 +4,7 @@ import baxter_interface
 from controller_manager_msgs.srv import ReloadControllerLibraries, ListControllers, LoadController, SwitchController, SwitchControllerRequest
 
 class BaxterSimulator(RobotSimulator):
+    #TODO offer ROS services for resetting instead and make this class to a node
     def __init__(self):
         self.controllerProcess = None
         self.bootedUp = False
