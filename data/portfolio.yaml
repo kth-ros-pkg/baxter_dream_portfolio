@@ -1,17 +1,7 @@
-paths: $ROS_PACKAGE_PATH(manipulation_optimizer)/scripts/manipPortfolio/
+paths: $ROS_PACKAGE_PATH(baxter_dream_portfolio)/src/baxter_manip_portfolio/
 portfolio:
-- package: manipPortfolio
+- package: baxter_manip_portfolio
   module: MoveItWrapper
   class: MoveItWrapper
   types: ArmPlanner;ArmController
-  parameters: {modelPathFile: $ROS_PACKAGE_PATH(manipulation_optimizer)/data/moveit_model_paths.yaml, moveItLaunchFile: $ROS_PACKAGE_PATH(manipulation_optimizer)/launch/moveit_baxter.launch}
-- package: manipPortfolio
-  module: HafGraspPlanner
-  class: HafGraspPlanner
-  types: GraspPlanner
-  parameters: {}
-- package: manipPortfolio
-  module: SimpleGraspController
-  class: SimpleGraspController
-  types: GraspController
-  parameters: {}
+  parameters: {modelPathFile: $ROS_PACKAGE_PATH(baxter_dream_portfolio)/data/moveit_model_paths.yaml, moveItLaunchFile: $ROS_PACKAGE_PATH(baxter_dream_portfolio)/launch/moveit_baxter.launch}

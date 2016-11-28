@@ -5,7 +5,7 @@
 
     @author: Silvia Cruciani (cruciani@kth.se)
 """
-from manipDreamBed.MethodTypes import GraspController
+from manipulation_dreambed.MethodTypes import GraspController
 import sys
 import rospy
 import baxter_interface

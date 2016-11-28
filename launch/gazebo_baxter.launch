@@ -20,7 +20,7 @@
   <arg name="load_robot_description" default="true"/>
   <arg name="base_z" default="0.93"/>
   <param if="$(arg load_robot_description)" name="robot_description"
-      command="$(find xacro)/xacro.py --inorder $(find baxter_description_modified)/urdf/baxter.urdf.xacro gazebo:=true base_z:=$(arg base_z)"/>
+      command="$(find xacro)/xacro.py --inorder $(find baxter_description)/urdf/baxter.urdf.xacro gazebo:=true base_z:=$(arg base_z)"/>
 
   <!-- We resume the logic in empty_world.launch, changing the name of the world to be launched -->
   <include file="$(find gazebo_ros)/launch/empty_world.launch">

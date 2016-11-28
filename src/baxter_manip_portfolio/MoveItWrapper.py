@@ -18,9 +18,9 @@ from sensor_msgs.msg import JointState
 from trajectory_msgs.msg import (JointTrajectory, JointTrajectoryPoint)
 from moveit_msgs.msg import (RobotTrajectory, RobotState)
 from genpy import rostime
-from manipDreamBed.MethodTypes import (ArmPlanner, ArmController, Trajectory, Waypoint)
-import manipDreamBed.ROSUtils as ROSUtils
-from manipDreamBed.Context import (Pose as ContextPose, PositionWrapper as ContextPosition,
+from manipulation_dreambed.MethodTypes import (ArmPlanner, ArmController, Trajectory, Waypoint)
+import manipulation_dreambed.ROSUtils as ROSUtils
+from manipulation_dreambed.Context import (Pose as ContextPose, PositionWrapper as ContextPosition,
                                    ConfigurationWrapper as ContextConfiguration, addNumpyYaml)
 
 

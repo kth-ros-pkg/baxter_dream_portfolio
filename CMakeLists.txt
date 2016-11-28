@@ -2,17 +2,22 @@ cmake_minimum_required(VERSION 2.8.3)
 project(baxter_dream_portfolio)
 
 ## Find catkin macros and libraries
-## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
-## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
   rospy
+  roscpp
+  roscpp_serialization
   std_msgs
   sensor_msgs
   message_generation
+  baxter_description
+  baxter_moveit_config
+  moveit_msgs
+  moveit_commander
+  actionlib
 )
 
-find_package(Boost REQUIRED COMPONENTS python)
-find_package(PythonLibs 2.7 REQUIRED)
+# find_package(Boost REQUIRED COMPONENTS python)
+# find_package(PythonLibs 2.7 REQUIRED)
 
 ## Set compiler optimization flags
 # set(CMAKE_CXX_FLAGS "-Wno-deprecated")
@@ -75,26 +80,6 @@ add_service_files(
    sensor_msgs
  )
 
-################################################
-## Declare ROS dynamic reconfigure parameters ##
-################################################
-
-## To declare and build dynamic reconfigure parameters within this
-## package, follow these steps:
-## * In the file package.xml:
-##   * add a build_depend and a run_depend tag for "dynamic_reconfigure"
-## * In this file (CMakeLists.txt):
-##   * add "dynamic_reconfigure" to
-##     find_package(catkin REQUIRED COMPONENTS ...)
-##   * uncomment the "generate_dynamic_reconfigure_options" section below
-##     and list every .cfg file to be processed
-
-## Generate dynamic reconfigure parameters in the 'cfg' folder
-# generate_dynamic_reconfigure_options(
-#   cfg/DynReconf1.cfg
-#   cfg/DynReconf2.cfg
-# )
-
 ###################################
 ## catkin specific configuration ##
 ###################################
@@ -106,8 +91,18 @@ add_service_files(
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
         # INCLUDE_DIRS include
-        # LIBRARIES 
+        # LIBRARIES #GraspPlanner _GraspPlanner_wrapper.cpp
         CATKIN_DEPENDS roscpp message_runtime
         #  DEPENDS system_lib 
 )
+
+###########
+## Build ##
+##########
+# include_directories(
+#     include
+#     ${catkin_INCLUDE_DIRS}
+#     ${Boost_INCLUDE_DIRS}
+#     ${PYTHON_INCLUDE_DIRS}
+# )
 

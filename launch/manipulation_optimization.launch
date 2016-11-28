@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <launch>
-  <node name="ask_point_cloud_server" pkg="baxter_dream_portfolio" type="ask_point_cloud_server"/>
+  <!-- <node name="ask_point_cloud_server" pkg="baxter_dream_portfolio" type="ask_point_cloud_server"/> -->
 
-  <node name="calc_grasppoints_svm_action_server" pkg="haf_grasping"
-          type="calc_grasppoints_action_server"/>
+  <!-- <node name="calc_grasppoints_svm_action_server" pkg="haf_grasping" -->
+          <!-- type="calc_grasppoints_action_server"/> -->
+  <node name="BaxterRobotSimulator" pkg="baxter_dream_portfolio" type="BaxterRobotSimulator.py" />
 
-  <node name="ManipulationOptimizer" pkg="manipulation_dreambed"
-          type="ROSManipulationOptimizer.py"
-          args="- -gzModelPathsFile $(find baxter_dream_portfolio)/data/gazebo_model_paths.yaml
-                - -portfolio $(find baxter_dream_portfolio)/data/portfolio.yaml
-                - -scene $(find baxter_dream_portfolio)/data/test.yaml" />
+  <!-- <include file="$(find baxter_dream_portfolio)/launch/moveit_baxter.launch"/> -->
+
+  <!-- <node name="ManipulationOptimizer" pkg="manipulation_dreambed" -->
+  <!--         type="ROSManipulationOptimizer.py" -->
+  <!--         args="&#45;&#45;gzModelPathsFile $(find baxter_dream_portfolio)/data/gazebo_model_paths.yaml -->
+  <!--               &#45;&#45;portfolio $(find baxter_dream_portfolio)/data/portfolio.yaml -->
+  <!--               &#45;&#45;scene $(find baxter_dream_portfolio)/data/test.yaml -->
+  <!--               &#45;&#45;task $(find baxter_dream_portfolio)/data/mini_shelf_task.yaml"/> -->
 
 <!-- We load the empty baxter world for now and populate it with objects later.
 This eventually needs to be replaced by a launch file setting up gazebo with the actual

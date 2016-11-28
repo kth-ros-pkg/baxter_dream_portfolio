@@ -5,7 +5,7 @@ from catkin_pkg.python_setup import generate_distutils_setup
 
 # fetch values from package.xml
 setup_args = generate_distutils_setup(
-    packages=['baxter_dream_portfolio'],
+    packages=['baxter_manip_portfolio'],
     package_dir={'': 'src'})
 
 setup(**setup_args)

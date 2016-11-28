@@ -5,7 +5,7 @@
  * This file is part of the RobDREAM (http://robdream.eu/) deliverable D4.2.
  */
 
-#include <manipulation_optimizer/AgileGraspHandles.hpp>
+#include <grasp_planner/AgileGraspHandles.hpp>
 
 using namespace manipulation_optimizer;
 

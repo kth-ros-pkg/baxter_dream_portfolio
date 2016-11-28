@@ -6,7 +6,7 @@
 
     @author: Silvia Cruciani (cruciani@kth.se)
 """
-from manipDreamBed.MethodTypes import (GraspPlanner, GraspResult)
+from manipulation_dreambed.MethodTypes import (GraspPlanner, GraspResult)
 import rospy
 import sys
 import tf
@@ -17,7 +17,7 @@ from geometry_msgs.msg import (Point, Vector3)
 from std_msgs.msg import String
 from haf_grasping.msg import (CalcGraspPointsServerGoal, CalcGraspPointsServerAction)
 from sensor_msgs.msg import PointCloud2
-from manipulation_optimizer.srv import AskPointCloud
+from baxter_dream_portfolio.srv import AskPointCloud
 
 
 class HafGraspPlanner(GraspPlanner):

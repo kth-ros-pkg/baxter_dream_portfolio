@@ -1,4 +1,4 @@
-base_path: $ROS_PACKAGE_PATH(manipulation_optimizer)/
+base_path: $ROS_PACKAGE_PATH(baxter_dream_portfolio)/
 models:
     crayola_64_ct: !Mesh {meshFile: data/models/gazebo/crayola_64_ct/meshes/crayola_64_ct.dae, pose: !Pose {orientation: !ndarray '[0.0, 0.0, 0.0, 1.0]', position: !ndarray '[0.0, 0.0, 0.0]'}}
     cafe_table: !Mesh {meshFile: data/models/gazebo/cafe_table/meshes/cafe_table.stl, pose: !Pose {orientation: !ndarray '[0.0, 0.0, 0.0, 1.0]', position: !ndarray '[0.0, 0.0, 0.0]'}}
