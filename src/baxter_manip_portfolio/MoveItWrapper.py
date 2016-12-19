@@ -7,6 +7,8 @@
 """
 
 import yaml
+from abc import ABCMeta
+
 import moveit_commander
 import sys
 import tf.transformations
@@ -58,6 +60,7 @@ class Mesh(yaml.YAMLObject):
 
 
 class MoveItWrapper(PortfolioMethod, ArmPlanner, ArmController):
+    __metaclass__ = ABCMeta
     """ A wrapper class for MoveIt that fulfills the ArmPlanner and ArmController interfaces. """
     def __init__(self, parameters):
         addNumpyYaml()
@@ -121,55 +124,34 @@ class MoveItWrapper(PortfolioMethod, ArmPlanner, ArmController):
     def supportsBatchProcessing(self):
         return False
 
+    def executeBatch(self, startContext, batchInput, parameters):
+        # self.preparePlanning(startContext)
+        # outputs = []
+        # for (role, inputs) in batchInput:
+        #     if role == ArmPlanner.STRING_REPRESENTATION:
+        #         # Plan
+        #         goal = inputs['goal']
+        #         paramPrefix = inputs['paramPrefix']
+        #         moveGroup = parameters[paramPrefix + '_moveGroup']
+        #         moveitTraj = self._planMoveItTraj(context=startContext, goal=goal, paramPrefix=paramPrefix,
+        #                                           parameters=parameters)
+        #         outputs.append((moveitTraj is not None, self._convertMoveItTrajToContextTraj(moveItTraj=moveitTraj,
+        #                                                                                      moveGroup=moveGroup)))
+        #     elif role == ArmController.STRING_REPRESENTATION:
+        #         # Control
+        pass
+
+
     def preparePlanning(self, context):
         # TODO decide whether init should count in to runtime
         self._synchEnvironment(context)
 
-    def plan(self, goal, context, paramPrefix, parameters):
-        self.preparePlanning(context)
-        moveGroupName = parameters[paramPrefix + '_moveGroup']
-        algorithmName = parameters[paramPrefix + '_algorithm']
-        timeOut = parameters[paramPrefix + '_timeout']
-        longest_valid_segment_fraction = parameters[paramPrefix + '_longest_valid_segment_fraction']
-        if moveGroupName not in self._moveGroups:
-            self._moveGroups[moveGroupName] = moveit_commander.MoveGroupCommander(moveGroupName)
-        moveGroup = self._moveGroups[moveGroupName]
-        moveGroup.set_planning_time(timeOut)
-        self._setMoveItROSParameters(paramPrefix, parameters)
-        moveGroup.clear_pose_targets()
-        robotState = self._convertRobotState(context, moveGroup.get_active_joints())
-        moveGroup.set_start_state(robotState)
-        if isinstance(goal, ContextPose):
-            # input goal is pose, transform to ROSPose and send it to Moveit
-            pose = ROSUtils.contextPoseToROSPose(goal, bStamped=True)
-            moveGroup.set_pose_target(pose)
-        elif isinstance(goal, ContextPosition):
-            # input is just a position, transform to list and send it to Moveit
-            position = [x for x in goal.position]
-            moveGroup.set_position_target(position)
-        elif isinstance(goal, ContextConfiguration):
-            # if input goal is configuration, plan to config
-            moveGroup.set_joint_value_target(goal.configuration)
-        else:
-            raise ValueError('The given goal %g is of invalid type.' % goal)
-
-        # TODO extend so that contraints are respected (e.g. follow cartesian path)
-        moveGroup.set_planner_id(algorithmName)
-        moveit_traj = moveGroup.plan()
-        if len(moveit_traj.joint_trajectory.points) == 0:
-            # we did not find a solution
-            return None
-        # else extract the solution
-        trajectory = Trajectory(group_name=parameters[paramPrefix + '_moveGroup'],
-                                joint_names=moveit_traj.joint_trajectory.joint_names)
-        for point in moveit_traj.joint_trajectory.points:
-            wp = Waypoint(timestamp=(point.time_from_start.secs, point.time_from_start.nsecs),
-                          positions=point.positions, velocities=point.velocities,
-                          accelerations=point.accelerations)
-            trajectory.appendWaypoint(wp)
+    def planArmTrajectory(self, goal, context, paramPrefix, parameters):
+        moveItTraj = self._planMoveItTraj(context=context, goal=goal, paramPrefix=paramPrefix, parameters=parameters)
+        trajectory = self._convertMoveItTrajToContextTraj(moveItTraj, moveGroup=parameters[paramPrefix + '_moveGroup'])
         return trajectory
 
-    def execute(self, trajectory, context, paramPrefix, parameters):
+    def executeArmTrajectory(self, trajectory, context, paramPrefix, parameters):
         group = self._moveit_commander.get_group(trajectory.group_name)
         moveit_traj = self._convertTrajectory(trajectory)
         executionResult = group.execute(moveit_traj)
@@ -253,6 +235,19 @@ class MoveItWrapper(PortfolioMethod, ArmPlanner, ArmController):
         robotTraj.joint_trajectory = jointTraj
         return robotTraj
 
+    def _convertMoveItTrajToContextTraj(self, moveItTraj, moveGroup):
+        if moveItTraj is not None:
+            # extract the solution
+            trajectory = Trajectory(group_name=moveGroup,
+                                    joint_names=moveItTraj.joint_trajectory.joint_names)
+            for point in moveItTraj.joint_trajectory.points:
+                wp = Waypoint(timestamp=(point.time_from_start.secs, point.time_from_start.nsecs),
+                              positions=point.positions, velocities=point.velocities,
+                              accelerations=point.accelerations)
+                trajectory.appendWaypoint(wp)
+            return trajectory
+        return None
+
     def _setMoveItROSParameters(self, paramPrefix, parameters):
         moveGroupName = parameters[paramPrefix + '_moveGroup']
         value = parameters[paramPrefix + '_longest_valid_segment_fraction']
@@ -271,3 +266,40 @@ class MoveItWrapper(PortfolioMethod, ArmPlanner, ArmController):
             rospy.set_param('/move_group/planner_configs/RRTStarkConfigDefault/range', parameters[paramPrefix + '_range'])
             rospy.set_param('/move_group/planner_configs/RRTStarkConfigDefault/goal_bias', parameters[paramPrefix + '_goal_bias'])
             rospy.set_param('/move_group/planner_configs/RRTStarkConfigDefault/delay_collision_checking', parameters[paramPrefix + '_delay_collision_checking'])
+
+    def _planMoveItTraj(self, context, goal, paramPrefix, parameters):
+        self.preparePlanning(context)
+        moveGroupName = parameters[paramPrefix + '_moveGroup']
+        algorithmName = parameters[paramPrefix + '_algorithm']
+        timeOut = parameters[paramPrefix + '_timeout']
+        longest_valid_segment_fraction = parameters[paramPrefix + '_longest_valid_segment_fraction']
+        if moveGroupName not in self._moveGroups:
+            self._moveGroups[moveGroupName] = moveit_commander.MoveGroupCommander(moveGroupName)
+        moveGroup = self._moveGroups[moveGroupName]
+        moveGroup.set_planning_time(timeOut)
+        self._setMoveItROSParameters(paramPrefix, parameters)
+        moveGroup.clear_pose_targets()
+        robotState = self._convertRobotState(context, moveGroup.get_active_joints())
+        moveGroup.set_start_state(robotState)
+        if isinstance(goal, ContextPose):
+            # input goal is pose, transform to ROSPose and send it to Moveit
+            pose = ROSUtils.contextPoseToROSPose(goal, bStamped=True)
+            moveGroup.set_pose_target(pose)
+        elif isinstance(goal, ContextPosition):
+            # input is just a position, transform to list and send it to Moveit
+            position = [x for x in goal.position]
+            moveGroup.set_position_target(position)
+        elif isinstance(goal, ContextConfiguration):
+            # if input goal is configuration, plan to config
+            moveGroup.set_joint_value_target(goal.configuration)
+        else:
+            raise ValueError('The given goal %g is of invalid type.' % goal)
+
+        # TODO extend so that contraints are respected (e.g. follow cartesian path)
+        moveGroup.set_planner_id(algorithmName)
+        moveit_traj = moveGroup.plan()
+        if len(moveit_traj.joint_trajectory.points) == 0:
+            # we did not find a solution
+            return None
+        return moveit_traj
+
