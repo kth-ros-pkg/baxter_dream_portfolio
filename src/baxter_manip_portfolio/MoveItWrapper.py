@@ -18,7 +18,7 @@ from sensor_msgs.msg import JointState
 from trajectory_msgs.msg import (JointTrajectory, JointTrajectoryPoint)
 from moveit_msgs.msg import (RobotTrajectory, RobotState)
 from genpy import rostime
-from manipulation_dreambed.MethodTypes import (ArmPlanner, ArmController, Trajectory, Waypoint)
+from manipulation_dreambed.MethodTypes import (PortfolioMethod, ArmPlanner, ArmController, Trajectory, Waypoint)
 import manipulation_dreambed.ROSUtils as ROSUtils
 from manipulation_dreambed.Context import (Pose as ContextPose, PositionWrapper as ContextPosition,
                                    ConfigurationWrapper as ContextConfiguration, addNumpyYaml)
@@ -57,7 +57,7 @@ class Mesh(yaml.YAMLObject):
         return "%s(meshFile=%r, pose=%r)" % (self.__class__.__name__, self.meshFile, self.pose)
 
 
-class MoveItWrapper(ArmPlanner, ArmController):
+class MoveItWrapper(PortfolioMethod, ArmPlanner, ArmController):
     """ A wrapper class for MoveIt that fulfills the ArmPlanner and ArmController interfaces. """
     def __init__(self, parameters):
         addNumpyYaml()
@@ -105,15 +105,21 @@ class MoveItWrapper(ArmPlanner, ArmController):
         # We start MoveIt here using the launch file specified
         MoveItUtils.runMoveIt(self._moveItLaunchFile, keepRunning=True)
 
-    def allocateResources(self):
+    def allocateResources(self, roles=None):
         pass
 
-    def releaseResources(self):
+    def releaseResources(self, roles=None):
         pass
+
+    def hasResourceConflict(self, activeRoles):
+        return False
 
     def destroy(self):
         MoveItUtils.runMoveIt(keepRunning=False)
         self.releaseResources()
+
+    def supportsBatchProcessing(self):
+        return False
 
     def preparePlanning(self, context):
         # TODO decide whether init should count in to runtime
